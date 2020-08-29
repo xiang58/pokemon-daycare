@@ -1,0 +1,20 @@
+@charset "ISO-8859-1";
+
+img {
+  width: 6%;
+  height: 6%;
+}
+
+table, form {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container {
+  width: 85%;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td, 
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #fac7c3; 
+ }
